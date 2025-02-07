@@ -26,6 +26,11 @@
         <div>
 
             <h3>Log-In</h3>
+            <hr />
+
+
+            <%--LABEL/TEXTBOX/BUTTON--%>
+
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style3">
@@ -44,19 +49,50 @@
                     </td>
                 </tr>
             </table>
-
-
             <br />
-
             <asp:Label ID="lblUsername" runat="server"></asp:Label>
 
-            <br />
 
+            <%--HYPERLINK--%>
+            <hr />
+
+            <br />
             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://www.javatpoint.com/asp-net-web-form-introduction">www.javatpoint.com</asp:HyperLink>
 
 
+            <%--RADIOBUTTON--%>
+            <br />
+            <br />
+            <hr />
+            <asp:RadioButton ID="rbtnMale" runat="server" GroupName="Sex" Text="Male" />
+            <asp:RadioButton ID="rbtnFemale" runat="server" GroupName="Sex" Text="Female" />
+            <br />
+            <asp:Button ID="btnOk" runat="server" Text="Ok" OnClick="btnOk_Click" />
+            <br />
+            <asp:Label ID="lblSex" runat="server"></asp:Label>
 
 
+            <%--CALENDAR--%>
+            <br />
+            <br />
+            <hr />
+            <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar>
+            <br />
+            <asp:Label ID="lblDate" runat="server"></asp:Label>
+
+
+            <%--CHECKBOX--%>
+            <br />
+            <br />
+            <hr />
+            <asp:CheckBox ID="chkYL1" runat="server" Text="1st Year"/>
+            <asp:CheckBox ID="chkYL2" runat="server" Text="2nd Year"/>
+            <asp:CheckBox ID="chkYL3" runat="server" Text="3rd Year"/>
+            <asp:CheckBox ID="chkYL4" runat="server" Text="4th Year"/>
+            <br />
+            <asp:Button ID="btnSelect" runat="server" Text="Button" OnClick="btnSelect_Click"/>
+            <br />
+            <asp:Label ID="lblYearLevel" runat="server"></asp:Label>
 
 
 
