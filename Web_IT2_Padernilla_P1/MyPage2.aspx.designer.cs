@@ -11,7 +11,7 @@ namespace Web_IT2_Padernilla_P1
 {
 
 
-    public partial class MyPagePadernilla
+    public partial class MyPage2
     {
 
         /// <summary>
@@ -40,6 +40,15 @@ namespace Web_IT2_Padernilla_P1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSubmit;
+
+        /// <summary>
+        /// btnCancel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCancel;
 
         /// <summary>
         /// lblUsername control.
